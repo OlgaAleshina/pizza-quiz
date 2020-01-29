@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://cache.desktopnexus.com/cropped-wallpapers/2286/2286044-1366x768-[DesktopNexus.com].jpg?st=5FS_2ldsUDYVyMgCe0AcFg&e=1568126561");
+  width: 100vw;
+  height: 100vh;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quiz-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7133;
+  width: 50%;
+  height: 50%;
+  border-radius: 20% 5%;
+  box-shadow: 0 0 30px 3px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
